@@ -1,0 +1,47 @@
+:root {
+  --primary: #252a34;
+  --secondary: #42515f;      
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;    
+  background: var(--primary);
+  color: #fff;
+}
+
+.header {
+  background: var(--secondary);  
+}
+
+.logo a {
+  color: #fff;
+  font-size: 2em;
+  text-decoration: none;      
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.animate {  
+  -webkit-animation: animateBtn 0.5s;
+  animation: animateBtn 0.5s
+}
+
+/* Animation */
+@-webkit-keyframes animateBtn {
+  0% {opacity: 1}
+  100% {opacity: 0.3}
+}
+
+@keyframes animateBtn {  
+  0% {opacity: 1}
+  100% {opacity: 0.3}
+}
